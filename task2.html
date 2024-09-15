@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Coordinates</title>
+    <style>
+        body {
+            font-family: Montserrat, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1 {
+            color: cornflowerblue;
+        }
+        #box {
+            width: 500px;
+            height: 500px;
+            border: 5px solid cornflowerblue;
+            border-radius: 10px;
+            position: relative;
+        }
+        #coordinates {
+            margin-top: 20px;
+            color: darkorange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>КООРДИНАТЫ КУРСОРА</h1>
+<div id="box"></div>
+<div id="coordinates">X: 0, Y: 0</div>
+
+<script src="app.js"></script>
+</body>
+</html>

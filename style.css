@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 150px;
+}
+
+.trafficLight{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trafficLight div {
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.mark{
+    background-color: white;
+    border-radius: 50%;
+    border: red 15px solid;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textMark{
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+
+}
